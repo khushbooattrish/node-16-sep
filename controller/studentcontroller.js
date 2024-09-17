@@ -22,7 +22,7 @@ async function getStudents(req,res){
 
     }
 }
-async function getStudentByRollno(req,res){
+async function getStudentByRollNo(req,res){
     try{
       let rollNo=parseInt(req.params.rollNo);
       console.log(rollno,'rollno')
@@ -36,5 +36,5 @@ async function getStudentByRollno(req,res){
 module.exports={
     addStudent,
     getStudents,
-    getStudentByRollno
+    getStudentByRollNo
 }

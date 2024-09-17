@@ -11,6 +11,6 @@ router.get('/users',(req,res)=>{
 
 })
 router.get('/user/:rollno',(req,res)=>{
-    StudentController.getStudentByRollno(req,res)
+    StudentController.getStudentByRollNo(req,res)
 })
 module.exports = router
