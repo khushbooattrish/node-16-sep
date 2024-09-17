@@ -1,4 +1,4 @@
-const Student=require('../models/student');
+const Student=require('../models/Student');
  async function  addStudent(req,res){
     try{
         console.log(req.body,'req.body')
