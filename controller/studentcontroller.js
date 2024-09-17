@@ -1,9 +1,9 @@
-const Student=require('../models/Student');
+const Student=require('../models/student');
  async function  addStudent(req,res){
     try{
         console.log(req.body,'req.body')
         let student=new Student(req.body);
-        await student.save();//async method
+        await student.save();//async metho
         console.log("data save succefully");
         res.end("added");
     }
